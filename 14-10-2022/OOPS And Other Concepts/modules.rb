@@ -49,6 +49,5 @@ puts "The PI value is : #{Area::PI}"
 
 puts "Enter the radius : "
 radius = gets.chomp.to_f
-puts radius
-Area.area_of_circle(radius)
-# puts "The Area of the circle who's radius #{radius} is #{area}"
+area = Area.area_of_circle(radius)
+puts "The Area of the circle who's radius #{radius} is #{area}"
